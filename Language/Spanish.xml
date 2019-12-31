@@ -9,7 +9,7 @@
 			<Control Id="lblVersion" Text="" />
 			<Control Id="lblCompany" Text="GD-77 Community Español EA" />
 			<Control Id="btnClose" Text="OK" />
-      <Control Id="lblTranslationCredit" Text="Spanish version by EA4ALX" />
+      <Control Id="lblTranslationCredit" Text="Spanish version by EA4ALX/EA5SW" />
 		</Controls>
 	</AboutForm>
 	<BootItemForm Text="Elementos Inicio">
@@ -77,7 +77,7 @@
 			<Control Id="chkAllowTalkaround" Text="Permitir Talkaround" />
 			<Control Id="grpAnalog" Text="Analógico" />
 			<Control Id="lblChBandwidth" Text="Ancho Banda [KHz]" />
-			<Control Id="lblVoiceEmphasis" Text="Enfasis Voz" />
+			<Control Id="lblVoiceEmphasis" Text="Énfasis Voz" />
 			<Control Id="lblSte" Text="STE" />
 			<Control Id="lblNonSte" Text="No STE" />
 			<Control Id="lblRxTone" Text="Tono RX [Hz]" />
@@ -111,7 +111,7 @@
 				<ToolStripItem Id="tsbtnFirst" Text="Primero" />
 				<ToolStripItem Id="tsbtnPrev" Text="Anterior" />
 				<ToolStripItem Id="tsbtnNext" Text="Siguiente" />
-				<ToolStripItem Id="tsbtnLast" Text="Ultimo" />
+				<ToolStripItem Id="tsbtnLast" Text="Último" />
 				<ToolStripItem Id="tsbtnAdd" Text="Añadir" />
 				<ToolStripItem Id="tsbtnDel" Text="Borrar" />
 			</Control>
@@ -125,11 +125,11 @@
 			<Item Id="AdmitCritericaD" Text="Siempre,Canal Libre,Color" />
 			<Item Id="Squelch" Text="Estricto,Normal" />
 			<Item Id="VoiceEmphasis" Text="Ninguno,De y Pre,De,Pre" />
-			<Item Id="Ste" Text="Frequencia,120°,180°,240°" />
+			<Item Id="Ste" Text="Frecuencia,120°,180°,240°" />
 			<Item Id="NonSte" Text="Ninguno,Frecuencia" />
 			<Item Id="SignalingSystem" Text="No,DTMF" />
 			<Item Id="UnmuteRule" Text="Std Unmute Mute,And Unmute Mute,And Unmute Or Mute" />
-			<Item Id="PttidType" Text="Ninguno,Solo PRE,Solo POS,PRE y POS" />
+			<Item Id="PttidType" Text="Ninguno,Sólo PRE,Sólo POS,PRE y POS" />
 			<Item Id="Arts" Text="Deshabilitado,Tx,Rx,Tx y Rx" />
 			<Item Id="TimingPreference" Text="Preferido,Eligible,No eligible" />
 			<Item Id="Ars" Text="Deshabilitado,Cambio Sistema" />
@@ -345,7 +345,7 @@
 			<Control Id="chkPrivateCall" Text="Llamada Privada" />
 			<Control Id="chkTxInhibit" Text="Sobreescritura Inhabilitación TX" />
 			<Control Id="lblUpChMode" Text="Modo Pantalla Superior" />
-			<Control Id="lblDownChMode" Text="Modo PAntalla Inferior" />
+			<Control Id="lblDownChMode" Text="Modo Pantalla Inferior" />
 			<Control Id="grpScan" Text="Exploración Automática (Scan)" />
 			<Control Id="lblScanMode" Text="Modo de Exploración (SCAN)" />
 		</Controls>
@@ -373,7 +373,7 @@
 			<TreeNode Id="Pivacy" Text="Privacidad" />
 			<TreeNode Id="SignalingSys" Text="Sistema de Señalización" />
 			<TreeNode Id="EmergencySys" Text="Sistema de Emergencia" />
-			<TreeNode Id="Contact" Text="Contactos" />
+			<TreeNode Id="Contact" Text="Contacto" />
 			<TreeNode Id="DtmfContact" Text="DTMF" />
 			<TreeNode Id="DigitalContact" Text="Contactos Digitales" />
 			<TreeNode Id="RxGroupList" Text="Listas de grupos de RX" />
@@ -404,12 +404,12 @@
       <MenuItem Id="tsmiSignalingSysten" Text="Sistema de Señalización" />      
 			<MenuItem Id="tsmiDtmf" Text="DTMF" />
 			<MenuItem Id="tsmiEmgSystem" Text="Sistema de Emergencia" />
-			<MenuItem Id="tsmiContact" Text="Contactos" />
+			<MenuItem Id="tsmiContact" Text="Contacto" />
 			<MenuItem Id="tsmiDtmfContact" Text="DTMF" />
 			<MenuItem Id="tsmiDmrContact" Text="Contactos Digitales" />
 			<MenuItem Id="tsmiContacts" Text="Contactos" />
 			<MenuItem Id="tsmiGrpRxList" Text="Lista de Grupos de RX" />
-			<MenuItem Id="tsmiZone" Text="Zonas" />
+			<MenuItem Id="tsmiZone" Text="Zona" />
 			<MenuItem Id="tsmiZoneList" Text="Lista de Zonas" />
 			<MenuItem Id="tsmiChannels" Text="Canales" />
 			<MenuItem Id="tsmiScan" Text="Exploración" />
@@ -545,7 +545,7 @@
 		</Controls>
 		<Commons>
 			<Item Id="PriorityCh" Text="Ninguno,Seleccionado" />
-			<Item Id="TxDesignatedCh" Text="Ultimo Canal Activo,Seleccionado" />
+			<Item Id="TxDesignatedCh" Text="Último Canal Activo,Seleccionado" />
 			<Item Id="PlType" Text="Canal No-Prioritario,Deshabilitado,Canal Prioritario,Canal Prioritario y No-Prioritario" />
 		</Commons>
 	</NormalScanForm>
@@ -640,12 +640,12 @@
 			<Control Id="chkAllowTalkaround" Text="Permitir Talkaround" />
 			<Control Id="grpAnalog" Text="Analógico" />
 			<Control Id="lblChBandwidth" Text="Ancho Banda [KHz]" />
-			<Control Id="lblVoiceEmphasis" Text="Enfasis Voz" />
+			<Control Id="lblVoiceEmphasis" Text="Énfasis Voz" />
 			<Control Id="lblSte" Text="STE" />
 			<Control Id="lblNonSte" Text="No STE" />
 			<Control Id="lblRxTone" Text="Tono RX [Hz]" />
 			<Control Id="lblRxSignaling" Text="Señalización RX" />
-			<Control Id="lblUnmuteRule" Text="Regla Slienciamiento" />
+			<Control Id="lblUnmuteRule" Text="Regla Silenciamiento" />
 			<Control Id="lblArtsInterval" Text="Intervalo ARTS [s]" />
 			<Control Id="lblArts" Text="ARTS" />
 			<Control Id="lblPttidType" Text="Tipo PTTID" />
@@ -660,8 +660,8 @@
 			<Control Id="lblTot" Text="TOT [s]" />
 			<Control Id="lblTotRekey" Text="Retardo TOT [s]" />
 			<Control Id="lblRssiThreshold" Text="Umbral RSSI [dBm]" />
-			<Control Id="lblRxRefFreq" Text="Frequencia Referencia RX" />
-			<Control Id="lblTxRefFreq" Text="Frequencia Referencia TX" />
+			<Control Id="lblRxRefFreq" Text="Frecuencia Referencia RX" />
+			<Control Id="lblTxRefFreq" Text="Frecuencia Referencia TX" />
 			<Control Id="lblRxFreq" Text="Frec RX [MHz]" />
 			<Control Id="lblPower" Text="Potencia TX" />
 			<Control Id="lblAdmitCriteria" Text="Criterio Admisión" />
@@ -733,11 +733,11 @@
       <Control Id="lblIDStartAlert" Text="Por favor, introduzca el código de prefijo de 3 digitos de su zona. Ej.: 214 España" />
       <Control Id="lblMessageAdded" Text="Disponibles {0} nuevas ID que no estaban ya en sus contactos" />
       <Control Id="lblMessageDownloading" Text="Descargando..." />
-      <Control Id="dgvDownloadeContacts" Text="ID DMR,Indicativo,Nombre,Ultima Vez">
+      <Control Id="dgvDownloadeContacts" Text="ID DMR,Indicativo,Nombre,Última Vez">
         <ControlItem Id="" Text="ID DMR" />
-        <ControlItem Id="" Text="Ìndicativo" />
+        <ControlItem Id="" Text="Indicativo" />
         <ControlItem Id="" Text="Nombre" />
-        <ControlItem Id="" Text="Ultima Vez" />
+        <ControlItem Id="" Text="Última Vez" />
       </Control>
     </Controls>
 </DownloadContactsForm>
@@ -748,9 +748,9 @@
       <Control Id="lblInactivityFilter" Text="Filtro de inactividad (días)" />
       <Control Id="btnDownload" Text="Descargar HamDigital" />
       <Control Id="btnImportCSV" Text="Importar CSV - Filtro Región" />
-      <Control Id="btnRead" Text="Lea de GD-77" />
-      <Control Id="btnWrite" Text="Escribir a GD-77" />
-      <Control Id="btnClear" Text="Claro" />
+      <Control Id="btnRead" Text="Lee el GD-77" />
+      <Control Id="btnWrite" Text="Escribe en GD-77" />
+      <Control Id="btnClear" Text="Vaciar" />
     </Controls>
   </DMRIDForm>  
 	<Commons>
@@ -793,23 +793,23 @@
     <Item Id="DownloadContactsTooMany" Text="No todos los contactos pudieron ser importados. Se ha alcanzado el número máximo de Contactos Digitales" />
     <Item Id="Warning" Text="Aviso" />
     <Item Id="UnableDownloadFromInternet" Text="Imposible descargar los datos. Compruebe su conexión a Internet" />
-    <Item Id="DownloadContactsImportComplete" Text="Import complete" />
-    <Item Id="CodeplugUpgradeNotice" Text="This appears to be a V3.0.6 Codeplug. It will be converted to V3.1.x" />
-    <Item Id="CodeplugUpgradeWarningToManyRxGroups" Text="Version 3.1.x can only have 76 Rx Groups. Additional Rx Groups have been ignored" />
-    <Item Id="CodeplugRead" Text="Reading codeplug from GD-77" />
-    <Item Id="CodeplugWrite" Text="Writing codeplug to GD-77" />
-    <Item Id="DMRIDRead" Text="Reading DMR ID database from GD-77" />
-    <Item Id="DMRIDWrite" Text="Writing DMR ID database to GD-77" />
-    <Item Id="CalibrationRead" Text="Reading calibration data from GD-77" />
-    <Item Id="CalibrationWrite" Text="Writing calibration data to GD-77" />
-    <Item Id="IdAlreadyExists" Text="ID already exists！" />
-    <Item Id="IdOutOfRange" Text="ID out of range!" />
-    <Item Id="IdNotEmpty" Text="ID can not be empty!" />
-    <Item Id="ContactNameDuplicate" Text="Warning. Duplicate contact name." />
-    <Item Id="EnableMemoryAccessMode" Text ="The GD-77 does not seem to be in Memory Access modeHold keys SK2 (Blue side key), Green Menu and * when turning on the transceiver, and try again" />
-    <Item Id="dataRead" Text="Reading data from GD-77"/>
-    <Item Id="dataWrite" Text="Writing data to GD-77"/>
-    <Item Id="DMRIdContcatsTotal" Text="Total number of IDs = {0}. Max of {1} can be uploaded" />
-    <Item Id="ErrorParsingData" Text="Error while parsing data" />    
+    <Item Id="DownloadContactsImportComplete" Text="Importación completada" />
+    <Item Id="CodeplugUpgradeNotice" Text="Parece un Codeplug de la V3.0.6,se convertirá a la V3.1.x" />
+    <Item Id="CodeplugUpgradeWarningToManyRxGroups" Text="La version 3.1.x solo tiene 76 Rx Groups. Los demás Rx Groups serán ignorados" />
+    <Item Id="CodeplugRead" Text="Leyendo codeplug desde GD-77" />
+    <Item Id="CodeplugWrite" Text="Escribiendo codeplug a GD-77" />
+    <Item Id="DMRIDRead" Text="Leyendo base de datos DMR ID desde GD-77" />
+    <Item Id="DMRIDWrite" Text="Escribiendo base de datos DMR ID a GD-77" />
+    <Item Id="CalibrationRead" Text="Leyendo datos de calibración desde GD-77" />
+    <Item Id="CalibrationWrite" Text="Escribiendo datos de calibración a GD-77" />
+    <Item Id="IdAlreadyExists" Text="ID ya existe!" />
+    <Item Id="IdOutOfRange" Text="ID fuera de rango!" />
+    <Item Id="IdNotEmpty" Text="ID no puede estar vacío!" />
+    <Item Id="ContactNameDuplicate" Text="Aviso. Nombre de contacto duplicado." />
+    <Item Id="EnableMemoryAccessMode" Text ="El GD-77 no parece estar en modo de acceso memoria.Aprieta tecla SK2 (Azul lateral), Menu verde y * minetras enciendes el equipo, y vuelve a probar" />
+    <Item Id="dataRead" Text="Leyendo datos desde GD-77"/>
+    <Item Id="dataWrite" Text="Escribiendo datos a GD-77"/>
+    <Item Id="DMRIdContcatsTotal" Text="Número total de IDs = {0}. Máximo de {1} se pueden escribir" />
+    <Item Id="ErrorParsingData" Text="Error mientras analizaba datos" />    
   </Commons>
 </Resource>
