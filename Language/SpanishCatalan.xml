@@ -431,7 +431,7 @@
 			<MenuItem Id="tsmiLanguage" Text="Idioma" />
 			<MenuItem Id="tsmiEnglish" Text="Anglés" />
 			<MenuItem Id="tsmiChinese" Text="Espanyol" />
-      <MenuItem Id="tsmiExtras" Text="Utilitas" />
+      <MenuItem Id="tsmiExtras" Text="Utilitats" />
       <MenuItem Id="tsmiContactsDownload" Text="Descarregar contactes" />
       <MenuItem Id="tsmiDMRID" Text="DMR ID" />
       <MenuItem Id="tsmiCalibration" Text="Calibració" />
