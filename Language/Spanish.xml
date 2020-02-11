@@ -259,7 +259,7 @@
 			<Control Id="lblDelimiter" Text="Delimitador" />
 			<Control Id="lblGrpCallCode" Text="Código Grupo" />
 			<Control Id="lblDecResp" Text="Respuesta Decodificar" />
-			<Control Id="lblFstDlyTime" Text="Retardo Primer Digito [ms]" />
+			<Control Id="lblFstDlyTime" Text="Retardo Primer Dígito [ms]" />
 			<Control Id="lblKillWakeDec" Text="Codigo Deshabitar/Habilitar" />
 			<Control Id="lblFstDur" Text="Duración primer dígito [ms]" />
 			<Control Id="lblKillType" Text="Tipo DESHABILITAR" />
@@ -377,8 +377,8 @@
 			<TreeNode Id="DtmfContact" Text="DTMF" />
 			<TreeNode Id="DigitalContact" Text="Contactos Digitales" />
 			<TreeNode Id="RxGroupList" Text="Listas de grupos de RX" />
-			<TreeNode Id="Zone" Text="Zonas" />
-			<TreeNode Id="Channel" Text="Canales" />
+			<TreeNode Id="Zone" Text="Zona" />
+			<TreeNode Id="Channel" Text="Canal" />
 			<TreeNode Id="Scan" Text="Exploración" />
 			<TreeNode Id="DtmfSignal" Text="DTMF" />
 			<TreeNode Id="VFO" Text="VFO" />
@@ -708,7 +708,7 @@
 				<ToolStripItem Id="tsbtnFirst" Text="Primero" />
 				<ToolStripItem Id="tsbtnPrev" Text="Anterior" />
 				<ToolStripItem Id="tsbtnNext" Text="Siguiente" />
-				<ToolStripItem Id="tsbtnLast" Text="Ultimo" />
+				<ToolStripItem Id="tsbtnLast" Text="Último" />
 				<ToolStripItem Id="tsbtnAdd" Text="Añadir" />
 				<ToolStripItem Id="tsbtnDel" Text="Borrar" />
 			</Control>
@@ -730,7 +730,7 @@
       <Control Id="btnDownloadDMRMARC" Text="Descargar desde DRM MARC" />      
       <Control Id="lblIDStart" Text="Prefijo Regional" />
       <Control Id="txtIDStart" Text="505" />
-      <Control Id="lblIDStartAlert" Text="Por favor, introduzca el código de prefijo de 3 digitos de su zona. Ej.: 214 España" />
+      <Control Id="lblIDStartAlert" Text="Por favor, introduzca el código de prefijo de 3 dígitos de su zona. Ej.: 214 España" />
       <Control Id="lblMessageAdded" Text="Disponibles {0} nuevas ID que no estaban ya en sus contactos" />
       <Control Id="lblMessageDownloading" Text="Descargando..." />
       <Control Id="dgvDownloadeContacts" Text="ID DMR,Indicativo,Nombre,Última Vez">
@@ -770,7 +770,7 @@
 		<Item Id="TypeNotMatch" Text="No coinciden los tipos" />
 		<Item Id="NotSelectItemNotCopyItem" Text="Elemento no seleccionado" />
 		<Item Id="KeyPressHex" Text="Por favor, introduce : " />
-		<Item Id="KeyPressDigit" Text="Por favor, introduce : Digito y {0}" />
+		<Item Id="KeyPressDigit" Text="Por favor, introduce : Dígito y {0}" />
 		<Item Id="KeyPressPrint" Text="Por favor, introduce : print" />
 		<Item Id="DeviceNotFound" Text="ERROR: Dispositivo no encontrado" />
 		<Item Id="ModelNotMatch" Text="ERROR: Modelo Incorrecto" />
@@ -787,7 +787,7 @@
 		<Item Id="pleaseConfirm"  Text="ATENCION - Por favor, confirme..." />
     <Item Id="userAgreement"  Text="Este programa se suministra tal y como está 'AS IS', sin garantía alguna. Utilicelo bajo su propio riesgo tanto para su PC como para su Radio DMR. Pulsando el botón 'Sí' confirma que entiende esta advertencia y está de acuerdo." />
     <Item Id="DownloadContactsMessageAdded" Text="Disponibles {0} nuevas ID's que no estaban ya incluidas en sus contactos" />
-    <Item Id="DownloadContactsRegionEmpty" Text="Por favor, introduzca el código de prefijo de al menos 3 digitos de su zona. Por ejemplo: 214 para España, 2147 para Andalucía , 213 Andorra..." />
+    <Item Id="DownloadContactsRegionEmpty" Text="Por favor, introduzca el código de prefijo de al menos 3 dígitos de su zona. Por ejemplo: 214 para España, 2147 para Andalucía , 213 Andorra..." />
     <Item Id="DownloadContactsDownloading" Text="Descargando ..." />
     <Item Id="DownloadContactsSelectContactsToImport" Text="Por favor, seleccione los contactos que desea importar" />
     <Item Id="DownloadContactsTooMany" Text="No todos los contactos pudieron ser importados. Se ha alcanzado el número máximo de Contactos Digitales" />
@@ -795,7 +795,7 @@
     <Item Id="UnableDownloadFromInternet" Text="Imposible descargar los datos. Compruebe su conexión a Internet" />
     <Item Id="DownloadContactsImportComplete" Text="Importación completada" />
     <Item Id="CodeplugUpgradeNotice" Text="Parece un Codeplug de la V3.0.6,se convertirá a la V3.1.x" />
-    <Item Id="CodeplugUpgradeWarningToManyRxGroups" Text="La version 3.1.x solo tiene 76 Rx Groups. Los demás Rx Groups serán ignorados" />
+    <Item Id="CodeplugUpgradeWarningToManyRxGroups" Text="La version 3.1.x sólo tiene 76 Rx Groups. Los demás Rx Groups serán ignorados" />
     <Item Id="CodeplugRead" Text="Leyendo codeplug desde GD-77" />
     <Item Id="CodeplugWrite" Text="Escribiendo codeplug a GD-77" />
     <Item Id="DMRIDRead" Text="Leyendo base de datos DMR ID desde GD-77" />
@@ -806,9 +806,9 @@
     <Item Id="IdOutOfRange" Text="ID fuera de rango!" />
     <Item Id="IdNotEmpty" Text="ID no puede estar vacío!" />
     <Item Id="ContactNameDuplicate" Text="Aviso. Nombre de contacto duplicado." />
-    <Item Id="EnableMemoryAccessMode" Text ="El GD-77 no parece estar en modo de acceso memoria.Aprieta tecla SK2 (Azul lateral), Menu verde y * minetras enciendes el equipo, y vuelve a probar" />
-    <Item Id="dataRead" Text="Leyendo datos desde GD-77"/>
-    <Item Id="dataWrite" Text="Escribiendo datos a GD-77"/>
+    <Item Id="EnableMemoryAccessMode" Text ="El GD-77 no parece estar en modo de acceso memoria.Aprieta tecla SK2 (Azul lateral), Menu verde y * mientras enciendes el equipo y vuelve a probar" />
+    <Item Id="dataRead" Text="Leyendo desde GD-77"/>
+    <Item Id="dataWrite" Text="Escribiendo en GD-77"/>
     <Item Id="DMRIdContcatsTotal" Text="Número total de IDs = {0}. Máximo de {1} se pueden escribir" />
     <Item Id="ErrorParsingData" Text="Error mientras analizaba datos" />    
   </Commons>
