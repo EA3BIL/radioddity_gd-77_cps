@@ -110,7 +110,7 @@
 				<ToolStripItem Id="tslblInfo" Text="" />
 				<ToolStripItem Id="tsbtnFirst" Text="Primer" />
 				<ToolStripItem Id="tsbtnPrev" Text="Anterior" />
-				<ToolStripItem Id="tsbtnNext" Text="Sigüent" />
+				<ToolStripItem Id="tsbtnNext" Text="Següent" />
 				<ToolStripItem Id="tsbtnLast" Text="Últim" />
 				<ToolStripItem Id="tsbtnAdd" Text="Afegir" />
 				<ToolStripItem Id="tsbtnDel" Text="Borrar" />
@@ -431,7 +431,7 @@
 			<MenuItem Id="tsmiLanguage" Text="Idioma" />
 			<MenuItem Id="tsmiEnglish" Text="Anglés" />
 			<MenuItem Id="tsmiChinese" Text="Espanyol" />
-      <MenuItem Id="tsmiExtras" Text="Utilitats" />
+      <MenuItem Id="tsmiExtras" Text="Eines" />
       <MenuItem Id="tsmiContactsDownload" Text="Descarregar contactes" />
       <MenuItem Id="tsmiDMRID" Text="DMR ID" />
       <MenuItem Id="tsmiCalibration" Text="Calibració" />
@@ -706,8 +706,8 @@
 				<ToolStripItem Id="tslblInfo" Text="" />
 				<ToolStripItem Id="tsbtnFirst" Text="Primer" />
 				<ToolStripItem Id="tsbtnPrev" Text="Anterior" />
-				<ToolStripItem Id="tsbtnNext" Text="Sigüent" />
-				<ToolStripItem Id="tsbtnLast" Text="ültim" />
+				<ToolStripItem Id="tsbtnNext" Text="Següent" />
+				<ToolStripItem Id="tsbtnLast" Text="Últim" />
 				<ToolStripItem Id="tsbtnAdd" Text="Afegir" />
 				<ToolStripItem Id="tsbtnDel" Text="Esborrar" />
 			</Control>
